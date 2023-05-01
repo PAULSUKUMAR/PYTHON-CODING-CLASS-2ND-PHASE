@@ -1,0 +1,7 @@
+players={}
+n=int(input("Enter no of players:"))
+for i in range(1,n+1):
+	pno=int(input("Enter pno:"))
+	pname=input("Enter pname:")
+	players[pno]=pname
+print(players)
